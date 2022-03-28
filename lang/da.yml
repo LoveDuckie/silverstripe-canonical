@@ -1,4 +1,4 @@
 da:
-  DorsetDigital\SilverStripeCanonical\ConfigCanonicalExtension:
+  LoveDuckie\SilverStripeCanonical\ConfigCanonicalExtension:
     InfoField: 'Det kanoniske domæne som tilføjes til HTML head delen af dine sider.'
     CanonicalDomainDescription: 'https://www.example.com'

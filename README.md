@@ -1,10 +1,10 @@
 # silverstripe-canonical
 Adds a simple rel=canonical tag to Silverstripe 4
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/DorsetDigital/silverstripe-canonical/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/DorsetDigital/silverstripe-canonical/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/DorsetDigital/silverstripe-canonical/badges/build.png?b=master)](https://scrutinizer-ci.com/g/DorsetDigital/silverstripe-canonical/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/LoveDuckie/silverstripe-canonical/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LoveDuckie/silverstripe-canonical/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/LoveDuckie/silverstripe-canonical/badges/build.png?b=master)](https://scrutinizer-ci.com/g/LoveDuckie/silverstripe-canonical/build-status/master)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE.md)
-[![Version](http://img.shields.io/packagist/v/dorsetdigital/silverstripe-canonical.svg?style=flat)](https://packagist.org/packages/dorsetdigital/silverstripe-canonical)
+[![Version](http://img.shields.io/packagist/v/LoveDuckie/silverstripe-canonical.svg?style=flat)](https://packagist.org/packages/LoveDuckie/silverstripe-canonical)
 
 # Requirements
 *Silverstripe 4.x
@@ -13,7 +13,7 @@ Adds a simple rel=canonical tag to Silverstripe 4
 
 
 # Installation
-* Install the code with `composer require dorsetdigital/silverstripe-canonical`
+* Install the code with `composer require LoveDuckie/silverstripe-canonical`
 * Run a `dev/build?flush` to update your project
 
 # Usage

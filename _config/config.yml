@@ -5,9 +5,12 @@ After:
 ---
 Page:
   extensions:
-    - DorsetDigital\SilverStripeCanonical\SiteTreeCanonicalExtension
+    - LoveDuckie\SilverStripeCanonical\SiteTreeCanonicalExtension
+
+LoveDuckie\SilverStripeCanonical:
+  use_page_link: false
 
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - DorsetDigital\SilverstripeCanonical\ConfigCanonicalExtension
+    - LoveDuckie\SilverstripeCanonical\ConfigCanonicalExtension
     
