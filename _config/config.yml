@@ -5,12 +5,12 @@ After:
 ---
 Page:
   extensions:
-    - LoveDuckie\SilverStripeCanonical\SiteTreeCanonicalExtension
+    - LoveDuckie\SilverStripe\Canonical\SiteTreeCanonicalExtension
 
-LoveDuckie\SilverStripeCanonical:
+LoveDuckie\SilverStripe\Canonical:
   use_page_link: false
 
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - LoveDuckie\SilverstripeCanonical\ConfigCanonicalExtension
+    - LoveDuckie\Silverstripe\Canonical\ConfigCanonicalExtension
     

@@ -1,6 +1,6 @@
 <?php
 
-namespace LoveDuckie\SilverStripeCanonical;
+namespace LoveDuckie\SilverStripe\Canonical;
 
 use SilverStripe\ORM\DataExtension;
 use SilverStripe\Forms\TextField;

@@ -17,7 +17,7 @@
  "license": "BSD-3-Clause",
  "autoload": {
   "psr-4": {
-   "LoveDuckie\\SilverStripeCanonical\\": "src/"
+   "LoveDuckie\\SilverStripe\\Canonical\\": "src/"
   }
  },
  "extra": {

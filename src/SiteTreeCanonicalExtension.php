@@ -1,6 +1,6 @@
 <?php
 
-namespace LoveDuckie\SilverStripeCanonical;
+namespace LoveDuckie\SilverStripe\Canonical;
 
 use SilverStripe\View\HTML;
 use SilverStripe\Forms\FieldList;
