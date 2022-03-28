@@ -25,7 +25,9 @@ Once installed, go to the site settings and enter the full canonical domain.   T
 The module tries to be the last extension to be applied, and will try to remove any existing `rel="canonical"` tags from the head.  
 
 
-At the time of writing, the canonical tags are only added correctly for pages in the SiteTree.   Pages generated from custom controllers or from DataObjects may or may not work!  When creating the canonical tags, the module will look for a method called `CanonicalLink()` on the extended object.  If you are using DataObjects as pages, adding this method on the relevant controller should allow you to control the canonical URL in these cases.
+~At the time of writing, the canonical tags are only added correctly for pages in the SiteTree.   Pages generated from custom controllers or from DataObjects may or may not work!  When creating the canonical tags, the module will look for a method called `CanonicalLink()` on the extended object.  If you are using DataObjects as pages, adding this method on the relevant controller should allow you to control the canonical URL in these cases.~
+
+**Support has since been added for adding canonical tags for pages that are rendered as DataObjects with controllers. Refer to documentation about how to use this.**
 
 # Additional Credits
 * Thanks to @sanderha (https://github.com/sanderha) for the Danish translation
