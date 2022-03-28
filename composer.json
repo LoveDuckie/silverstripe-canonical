@@ -3,7 +3,7 @@
  "description": "Adds a simple canonical tag in Silverstripe 4",
  "type": "silverstripe-vendormodule",
  "homepage": "https://github.com/LoveDuckie/silverstripe-canonical",
- "keywords": ["silverstripe", "html", "seo", "canonical"],
+ "keywords": ["silverstripe", "html", "seo", "canonical", "silverstripe 4"],
  "authors": [
   {
    "name": "Luc Shelton",
