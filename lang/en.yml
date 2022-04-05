@@ -1,0 +1,9 @@
+en:
+  LoveDuckie\SilverStripe\Canonical\ConfigCanonicalExtension:
+    CanonicalDomainDescription: 'https://www.example.com'
+    InfoField: 'The canonical domain will be added to the HTML head. It can be overriden per Page in '
+  LoveDuckie\SilverStripe\Canonical\SiteTreeCanonicalExtension:
+    LinkFieldPlaceholder: 'Canonical-URLs needs a Canoinical-Domain in <a href="/admin/settings">SiteConfig</a>'
+    LinkFieldRightTitle: 'Used to identify the original resource (URL) to prevent being considered as "duplicate content".'
+    LinkOverride: 'Override canonical URL'
+    LinkOverrideDesc: 'Only set this if another URL should count as the original (e.g. of reposting a blog post from another source).'
