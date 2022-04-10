@@ -1,17 +1,15 @@
 # silverstripe-canonical
 
-Adds a simple rel=canonical tag to Silverstripe 4
+Adds a `rel=canonical` tag to Silverstripe 4 to prevent search engines from recording duplicate entries for the same page.
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/loveduckie/silverstripe-canonical/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/loveduckie/silverstripe-canonical/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/loveduckie/silverstripe-canonical/badges/build.png?b=master)](https://scrutinizer-ci.com/g/loveduckie/silverstripe-canonical/build-status/master)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE.md)
 [![Version](http://img.shields.io/packagist/v/loveduckie/silverstripe-canonical.svg?style=flat)](https://packagist.org/packages/loveduckie/silverstripe-canonical)
 
-# #Requirements
+## Requirements
 
-*Silverstripe 4.x
-
-(For a similar add-on for SS3, please see: lerni/canonical (<https://github.com/lerni/canonical>)
+SilverStripe 4
 
 ## Installation
 

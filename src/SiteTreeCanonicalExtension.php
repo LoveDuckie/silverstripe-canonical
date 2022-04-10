@@ -54,7 +54,6 @@ class SiteTreeCanonicalExtension extends SiteTreeExtension
             throw new Exception("Failed to find the configuration for \"$className\"");
         }
         $controller = Controller::curr();
-        $request = $controller->getRequest();
         if (!filter_var($siteConfig->CanonicalDomain, FILTER_VALIDATE_URL)) {
             return;
         }
