@@ -1,26 +1,29 @@
 {
- "name": "loveduckie/silverstripe-canonical",
- "description": "Adds a simple canonical tag in Silverstripe 4",
- "type": "silverstripe-vendormodule",
- "homepage": "https://github.com/LoveDuckie/silverstripe-canonical",
- "keywords": ["silverstripe", "html", "seo", "canonical", "silverstripe 4"],
- "authors": [
-  {
-   "name": "Luc Shelton",
-   "email": "lucshelton@gmail.com"
-  }
- ], 
- "require": {
-  "silverstripe/vendor-plugin": "^1.0",
-  "silverstripe/cms": "^4.0"
- },
- "license": "BSD-3-Clause",
- "autoload": {
-  "psr-4": {
-   "LoveDuckie\\SilverStripe\\Canonical\\": "src/"
-  }
- },
- "extra": {
- },
- "minimum-stability": "dev"
+    "name": "loveduckie/silverstripe-canonical",
+    "description": "Adds a simple canonical tag in Silverstripe 4",
+    "type": "silverstripe-vendormodule",
+    "homepage": "https://github.com/LoveDuckie/silverstripe-canonical",
+    "keywords": ["silverstripe", "html", "seo", "canonical", "silverstripe 4"],
+    "authors": [{
+        "name": "Luc Shelton",
+        "email": "lucshelton@gmail.com",
+        "homepage": "https://www.lucshelton.com",
+        "role": "Developer"
+    }],
+    "support": {
+        "email": "lucshelton@gmail.com",
+        "issues": "http://github.com/LoveDuckie/silverstripe-canonical/issues"
+    },
+    "require": {
+        "silverstripe/vendor-plugin": "^1.0",
+        "silverstripe/cms": "^4.0"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "LoveDuckie\\SilverStripe\\Canonical\\": "src/"
+        }
+    },
+    "extra": {},
+    "minimum-stability": "dev"
 }
