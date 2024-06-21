@@ -21,6 +21,11 @@ class SiteTreeCanonicalExtension extends SiteTreeExtension
         'CanonicalURL' => 'Text'
     ];
 
+    /**
+     * @param FieldList $fields
+     * @return void
+     * @throws Exception
+     */
     public function updateCMSFields(FieldList $fields)
     {
         if ($MetaToggle = $fields->fieldByName('Root.Main.Metadata')) {
@@ -36,6 +41,11 @@ class SiteTreeCanonicalExtension extends SiteTreeExtension
         }
     }
 
+    /**
+     * @param string $url
+     * @return bool
+     * @throws Exception
+     */
     private function isUrlAbsolute(string $url)
     {
         if (!$url) {

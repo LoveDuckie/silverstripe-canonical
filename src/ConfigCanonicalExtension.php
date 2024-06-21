@@ -13,7 +13,11 @@ class ConfigCanonicalExtension extends DataExtension
         'CanonicalDomain' => 'Varchar(255)'
     ];
 
-    public function updateCMSFields(FieldList $fields)
+    /**
+     * @param FieldList $fields
+     * @return FieldList
+     */
+    public function updateCMSFields(FieldList $fields): FieldList
     {
         $CanonicalDomainField = TextField::create('CanonicalDomain')
             ->setDescription(_t(__CLASS__ . '.InfoField', 'The canonical domain will be added to the HTML head. It can be overriden per Page in ') . _t('SilverStripe\CMS\Model\SiteTree.MetadataToggle', 'Metadata') . '.')

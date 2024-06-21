@@ -12,5 +12,4 @@ LoveDuckie\SilverStripe\Canonical:
 
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - LoveDuckie\Silverstripe\Canonical\ConfigCanonicalExtension
-    
+    - LoveDuckie\SilverStripe\Canonical\ConfigCanonicalExtension
