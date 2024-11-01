@@ -1,6 +1,6 @@
 {
     "name": "loveduckie/silverstripe-canonical",
-    "description": "Adds a simple canonical tag in Silverstripe 4",
+    "description": "Adds a simple canonical tag in Silverstripe",
     "type": "silverstripe-vendormodule",
     "homepage": "https://github.com/LoveDuckie/silverstripe-canonical",
     "keywords": ["silverstripe", "html", "seo", "canonical", "silverstripe 4"],
